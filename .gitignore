@@ -1,0 +1,25 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Certificates and private keys
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Logs
+*.log
+logs/
+
+# Local data and backups
+data/
+backup/
+backups/
+
+# Editor and OS files
+.DS_Store
+.vscode/
+.idea/
